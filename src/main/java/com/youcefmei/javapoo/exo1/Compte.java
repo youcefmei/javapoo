@@ -36,7 +36,7 @@ public class Compte {
     }
 
     public void afficher(){
-        System.out.println("Le solde du compte est : " + this.getSolde());
+        System.out.println("Le solde du compte est : " + this.getSolde() + "\n");
     }
 
 
