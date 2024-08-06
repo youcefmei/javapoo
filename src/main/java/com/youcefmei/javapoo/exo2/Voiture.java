@@ -22,7 +22,7 @@ public class Voiture {
     }
 
     public void setMarque(String marque) {
-        if ( (this.marque.isEmpty()) || ( this.marque.isBlank() ) ) {
+        if ( (this.marque == null ) || ( (this.marque.isEmpty()) || ( this.marque.isBlank() ) )) {
             System.out.println("Cette marque n'est pas valide");
         }else{
             this.marque = marque;

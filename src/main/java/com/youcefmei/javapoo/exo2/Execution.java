@@ -7,7 +7,7 @@ public class Execution {
         voiture.afficher();
         voiture.setMarque("Toyota");
         voiture.afficher();
-        voiture.setPrix(30000d);
+        voiture.setPrix(30_000d);
         voiture.afficher();
 
 

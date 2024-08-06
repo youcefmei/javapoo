@@ -28,7 +28,10 @@ public class Compte {
 
     public void retirer(double montant){
         if (montant<=0){
-            System.out.println("Veuillez retirer une somme supérieur à zéro");
+            System.out.println("Veuillez retirer une somme supérieur à zéro\n");
+        }
+        else if (montant > this.solde){
+            System.out.println("Veuillez saisir un montant inférieur\n");
         }
         else{
             this.setSolde( this.solde - montant );
@@ -36,7 +39,7 @@ public class Compte {
     }
 
     public void afficher(){
-        System.out.println("Le solde du compte est : " + this.getSolde() + "\n");
+        System.out.println("Le solde du compte est: " + this.getSolde() + "\n");
     }
 
 
