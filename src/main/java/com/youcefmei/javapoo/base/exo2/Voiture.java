@@ -1,4 +1,4 @@
-package com.youcefmei.javapoo.exo2;
+package com.youcefmei.javapoo.base.exo2;
 
 public class Voiture {
     private String marque;

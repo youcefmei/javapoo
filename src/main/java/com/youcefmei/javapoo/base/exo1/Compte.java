@@ -1,4 +1,4 @@
-package com.youcefmei.javapoo.exo1;
+package com.youcefmei.javapoo.base.exo1;
 
 public class Compte {
 
@@ -12,7 +12,7 @@ public class Compte {
         return solde;
     }
 
-    public void setSolde(Double solde) {
+    private void setSolde(Double solde) {
         this.solde = solde;
     }
 

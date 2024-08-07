@@ -1,4 +1,4 @@
-package com.youcefmei.javapoo.exo3;
+package com.youcefmei.javapoo.base.exo3;
 
 public class TestRectangle {
     public static void main(String[] args) {

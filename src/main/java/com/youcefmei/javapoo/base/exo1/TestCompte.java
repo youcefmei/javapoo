@@ -1,4 +1,4 @@
-package com.youcefmei.javapoo.exo1;
+package com.youcefmei.javapoo.base.exo1;
 
 public class TestCompte {
     public static void main(String[] args) {
