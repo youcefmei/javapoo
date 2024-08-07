@@ -2,19 +2,19 @@ package com.youcefmei.javapoo.base.exo3;
 
 public class Rectangle {
 
-    private Double longueur;
-    private Double largeur;
+    private double longueur;
+    private double largeur;
 
-    public Rectangle(Double longueur, Double largeur) {
+    public Rectangle(double longueur, double largeur) {
         this.setLongueur(longueur);
         this.setLargeur(largeur);
     }
 
-    public Double getLargeur() {
+    public double getLargeur() {
         return largeur;
     }
 
-    public void setLargeur(Double largeur) {
+    public void setLargeur(double largeur) {
         if ( largeur <=0 ) {
             throw new IllegalArgumentException("la largeur doit être supérieur 0");
         }
@@ -23,11 +23,11 @@ public class Rectangle {
         }
     }
 
-    public Double getLongueur() {
+    public double getLongueur() {
         return longueur;
     }
 
-    public void setLongueur(Double longueur) {
+    public void setLongueur(double longueur) {
         if ( longueur <=0 ) {
             throw new IllegalArgumentException("la longueur doit être supérieur 0");
         }
@@ -36,11 +36,11 @@ public class Rectangle {
         }
     }
 
-    public Double surface(){
+    public double surface(){
         return this.longueur * this.largeur;
     }
 
-    public Double perimetre(){
+    public double perimetre(){
         return 2 * ( this.longueur + this.largeur );
     }
 

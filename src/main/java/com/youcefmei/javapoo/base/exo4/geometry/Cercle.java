@@ -1,4 +1,4 @@
-package com.youcefmei.javapoo.base.geometry;
+package com.youcefmei.javapoo.base.exo4.geometry;
 
 public class Cercle {
 
@@ -41,16 +41,16 @@ public class Cercle {
         double hypothenuse = Math.sqrt(dx*dx+dy*dy);
         System.out.println("L'hypothenuse est de : " + hypothenuse);
         if (hypothenuse == rayon){
-            System.out.println("Le point appartient au cercle");
+            System.out.println("Le point appartient au cercle\n");
         }
         else{
-            System.out.println("Le point n'appartient pas au cercle");
+            System.out.println("Le point n'appartient pas au cercle\n");
         }
     }
 
     public void afficher(){
         System.out.println("Le perimetre du cercle est de : " + this.perimetre());
-        System.out.println("La surface du cercle est de : " + this.surface());
+        System.out.println("La surface du cercle est de : " + this.surface() + "\n");
     }
 
 

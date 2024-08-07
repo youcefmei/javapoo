@@ -1,4 +1,4 @@
-package com.youcefmei.javapoo.base.geometry;
+package com.youcefmei.javapoo.base.exo4.geometry;
 
 public class Point {
 
