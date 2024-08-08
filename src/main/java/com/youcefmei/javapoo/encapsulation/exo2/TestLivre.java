@@ -18,6 +18,9 @@ public class TestLivre {
         System.out.println("L'auteur de ce livre est : " + livre2.getAuteur());
         System.out.println("Le nombre de page ce livre est : " + livre2.getNbPages());
 
+        System.out.println("Le nombre de pages cumulé de ces 2 livres est: " +
+                (livre1.getNbPages()+livre2.getNbPages() )
+        );
 
 
     }
